@@ -1,0 +1,34 @@
+.vid-full-width
+{
+	min-width:100%;
+}
+
+body .header-top
+{
+	background-color: #fff;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0;
+    padding-top: 50px;
+}
+
+body ul.dropdown-menu.simple-text-buttons>li>a
+{
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #7c715d;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+body ul.dropdown-menu.simple-text-buttons>li:not(.current-menu-item):not(.current_page_item).hover>a, body ul.dropdown-menu.simple-text-buttons>li:not(.current-menu-item):not(.current_page_item):hover>a, body ul.dropdown-menu.simple-text-buttons>li>a:hover
+{
+	color:#ef682d;
+}

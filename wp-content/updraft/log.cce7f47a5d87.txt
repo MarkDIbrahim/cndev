@@ -1,0 +1,35 @@
+0000.014 () Opened log file at time: Thu, 07 Mar 2019 17:15:24 +0000 on http://cndev.conservationnation.org
+0000.016 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.6 WP: 5.1 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux144 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.43-84.3-56-log WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 14.8M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.017 () Free space on disk containing Updraft's temporary directory: 951374.3 MB
+0000.224 () Restore job started. Entities to restore: plugins, themes. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.262 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.270 () Entity: plugins
+0000.270 () restore_backup(backup_file=backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:69:"/data/48/4/145/133/4797459/user/5680005/htdocs/dev/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.271 () Unpacking backup... (backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-plugins.zip, 23 MB)
+0000.282 () Unzipping backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-plugins.zip to /data/48/4/145/133/4797459/user/5680005/htdocs/dev/wp-content/upgrade/5d1b1c19/ using UpdraftPlus_ZipArchive, starting index 0
+0011.144 () Unzip progress: 1002 out of 3399 files (4.5 MB, plugins/elementor/assets/lib/flatpickr/flatpickr.min.js)
+0020.478 () Unzip progress: 2003 out of 3399 files (42.5 MB, plugins/widget-options/includes/widgets/option-tabs/state.php)
+0028.043 () Unzip progress: 3004 out of 3399 files (47.1 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/ApcCache.php)
+0033.863 () Unzip progress: 3399 out of 3399 files (52.3 MB, plugins/updraftplus/vendor/symfony/process/Tests/ProcessBuilderTest.php)
+0033.872 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.876 () Moving old data: can potentially use wp_filesystem method / -old
+0033.876 () Moving old data out of the way...
+0044.981 () Top-level entities being moved: index.php, hello.php, elementor, akismet, contact-form-7, materialis-companion, one-page-express-companion, posts-in-page, under-construction-page, wp-display-header, post-types-order, widget-options, templatic-singletemplate, updraftplus, classy-org-wp-master, ocean-extra
+0045.064 () Moving unpacked backup into place...
+0049.108 () Top-level entities being moved: akismet, contact-form-7, elementor, materialis-companion, ocean-extra, one-page-express-companion, post-types-order, posts-in-page, templatic-singletemplate, under-construction-page, updraftplus, widget-options, wp-display-header, index.php, hello.php
+0049.197 () Cleaning up rubbish...
+0049.207 () Entity: themes
+0049.207 () restore_backup(backup_file=backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-themes.zip, type=themes, info=a:2:{s:4:"path";s:68:"/data/48/4/145/133/4797459/user/5680005/htdocs/dev/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0049.209 () Unpacking backup... (backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-themes.zip, 13.2 MB)
+0049.213 () Unzipping backup_2019-03-07-1055_Conservation_Nation_e404524b2dbc-themes.zip to /data/48/4/145/133/4797459/user/5680005/htdocs/dev/wp-content/upgrade/e30c9336/ using UpdraftPlus_ZipArchive, starting index 0
+0058.135 () Unzip progress: 1002 out of 1810 files (14.9 MB, themes/oceanwp/woocommerce/loop/loop-start.php)
+0067.097 () Unzip progress: 1810 out of 1810 files (28.7 MB, themes/twentyseventeen/template-parts/post/content.php)
+0067.104 () Moving old data: filesystem method / updraft_dir is potentially possible
+0067.111 () Moving old data: can potentially use wp_filesystem method / -old
+0067.111 () Moving old data out of the way...
+0071.984 () Top-level entities being moved: index.php, materialis, twentynineteen, oceanwp, one-page-express, twentyfifteen, twentyseventeen, twentysixteen, oceanwp-child
+0072.032 () Moving unpacked backup into place...
+0073.616 () Top-level entities being moved: materialis, oceanwp, oceanwp-child, one-page-express, twentyfifteen, twentyseventeen, twentysixteen, index.php
+0073.673 () Cleaning up rubbish...
+0073.698 () Restore successful!
+0073.698 () Restore successful
