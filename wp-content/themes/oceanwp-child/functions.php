@@ -32,6 +32,7 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 /**
  * Change the Related Posts title "You Might Also Like" by "Related Posts"
  */
+
 function myprefix_related_posts_title() {
 	return 'Related Stories';
 }

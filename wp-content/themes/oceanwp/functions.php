@@ -1120,11 +1120,6 @@ final class OCEANWP_Theme_Class {
 }
 new OCEANWP_Theme_Class;
 
-/** Change the Related Posts title "You Might Also Like" by "Related Posts" **/
-function myprefix_related_posts_title() {
-	return 'Related Stories';
-}
-add_filter( 'ocean_related_posts_title', 'myprefix_related_posts_title' );
 
 
 /** hide category/link from featured posts **/
