@@ -13,8 +13,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400italic,600,600italic,700" rel="stylesheet">
-    <link href="/css/styles-offcanvas.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/wp-content/themes/oceanwp/assets/css/custom.css">
+    <link href="css/styles-offcanvas.css" rel="stylesheet">
+	
 	
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -22,11 +22,11 @@
 	
     <script src="//conservationnation.org/js/classie.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="/js/validator.min.js"></script>
+	<script src="js/validator.min.js"></script>
 
     
 	<?php wp_head(); ?>
-    <script src="/wp-content/themes/oceanwp/script.js"></script>
+    <script src="cndev/wp-content/themes/oceanwp/script.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
