@@ -180,7 +180,7 @@ a:hover img.image-shadow {
 
 #about *,
 #grid *
-#two* {
+#two * {
     z-index: 2;
 }
 
@@ -1864,11 +1864,11 @@ img::-moz-selection {
     padding: 20px
 }
 
-.video-container,
+/*.video-container,
 .video-container-header, video {
     position: absolute;
     width: 100%
-}
+}*/
 
 .video-container {
     top: 0;

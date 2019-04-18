@@ -46,14 +46,14 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 
 	<?php
 	if (is_page( 'home' ) ):
-		  echo '<div class="video-container hidden-sm hidden-xs" style="background-color:#333;"><video preload="true" autoplay="" loop="" 0="" muted poster="/img/headers/asian-elephant-1.jpg" title="asian elephant" class="vid-full-width" id="video-background">
+		  echo '<div class="video-container hidden-sm hidden-xs" style="background-color:#333;"><video preload="true" autoplay="" loop="" 0="" muted poster="/wp-content/uploads/2019/04/asian-elephant-1.jpg" title="asian elephant" class="vid-full-width" id="video-background">
 
-		    <source src="/videos/bg/asian-elephant.mp4" type="video/mp4">
-		    <source src="/videos/bg/asian-elephant.webm" type="video/webm; codecs=vp8, vorbis">
-		    <source src="/videos/bg/asian-elephant.ogv" type="video/ogg; codecs=theora, vorbis">
+		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.mp4" type="video/mp4">
+		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.webm" type="video/webm; codecs=vp8, vorbis">
+		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.ogv" type="video/ogg; codecs=theora, vorbis">
 		    </video></div>
 		    <div class="container-full-mobile visible-sm visible-xs">
-			<img class="img img-responsive" alt="asian elephant" src="https://conservationnation.org/img/headers/asian-elephant-1.jpg">
+			<img class="img img-responsive" alt="asian elephant" src="/wp-content/uploads/2019/04/asian-elephant-1.jpg">
 			</div>
 		    ';
 	endif;
@@ -62,7 +62,7 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 
 	<?php
 	if (is_page( 'impact' ) ):
-		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'https://conservationnation.org/img/headers/tiger-grass.jpg\');">
+		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'/wp-content/uploads/2019/04/tiger-grass.jpg\');">
 				<div class="container special">
 			  		<div class="jumbotron">
 			        
@@ -76,7 +76,7 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 
 	<?php
 	if (is_page( 'priorities' ) ):
-		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'https://conservationnation.org/img/headers/two-asian-elephants-grass.jpg\');">
+		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'/wp-content/uploads/2019/04/two-asian-elephants-grass.jpg\');">
 			<div class="container special">
 		  		<div class="jumbotron">
 		        	<!--<div id="take-action-overlay-main">
@@ -96,7 +96,7 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 
 	<?php
 	if (is_page( 'get-involved' ) ):
-		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'https://conservationnation.org/img/headers/red-panda-close.jpg\');">
+		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'/wp-content/uploads/2019/04/red-panda-close.jpg\');">
                 <div class="container special">
                     <div class="jumbotron">
                     
@@ -122,7 +122,7 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 
 	<?php
 	if (is_page( 'fundraise' ) ):
-		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'https://conservationnation.org/img/headers/giraffe-headshot.jpg\');">
+		echo '<div class="container-full-bg hidden-xs" style="background-image:url(\'/wp-content/uploads/2019/04/giraffe-headshot.jpg\');">
 				<div class="container special">
 			  		<div class="jumbotron">
 			        
