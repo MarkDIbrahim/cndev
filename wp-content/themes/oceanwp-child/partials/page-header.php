@@ -48,7 +48,7 @@ $heading = apply_filters( 'ocean_page_header_heading', $heading ); ?>
 	if (is_page( 'home' ) ):
 		  echo '<div class="video-container hidden-sm hidden-xs" style="background-color:#333;"><video preload="true" autoplay="" loop="" 0="" muted poster="/wp-content/uploads/2019/04/asian-elephant-1.jpg" title="asian elephant" class="vid-full-width" id="video-background">
 
-		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.mp4" type="video/mp4">
+		    <source src="/wp-content/uploads/2019/04/bubble-15sec.mp4" type="video/mp4">
 		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.webm" type="video/webm; codecs=vp8, vorbis">
 		    <source src="/wp-content/uploads/2019/04/asian-elephant-loop.ogv" type="video/ogg; codecs=theora, vorbis">
 		    </video></div>

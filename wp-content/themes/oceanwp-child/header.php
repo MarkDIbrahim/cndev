@@ -15,11 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400italic,600,600italic,700" rel="stylesheet">
     <link href="/wp-content/themes/oceanwp-child/assets/css/styles-offcanvas.css" rel="stylesheet">
 	
-	
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	
     <script src="//conservationnation.org/js/classie.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/wp-content/themes/oceanwp-child/assets/js/validator.min.js"></script>

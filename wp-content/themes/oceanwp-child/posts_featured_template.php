@@ -13,6 +13,7 @@
 <!-- Post Wrap Start-->
 
 	<!-- featured post -->
+	<div id="featured"><!-- testing style overrides -->
 	<div class="featured">
 	
 	<!-- This will output of the featured image thumbnail  -->
@@ -22,18 +23,8 @@
 	<div id="featured-text">
 	<!-- 	This outputs the post TITLE -->
 	<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-	
-	<!-- 	This outputs the post EXCERPT.  To display full content including images and html, 
-		replace the_excerpt(); with the_content();  below. -->
-		<div>
-		<?php the_excerpt(); ?>
-		</div>
-	<!--<div style="font-size: 18px; font-weight: 400;">-->
-	<div>
-		<a href="<?php the_permalink(); ?>">Read more...</a>
-	</div>
-
-	<!--	This outputs the post META information -->
+		
+		<!--	This outputs the post META information -->
 	<div class="entry-utility">
 		<i class="icon-clock"></i><span class="entry-date"><?php echo get_the_date(); ?></span>
 		<?php if ( count( get_the_category() ) ) : ?>
@@ -54,8 +45,20 @@
 			<li class="meta-cat"><i class="icon-folder"></i><?php the_category( ' / ', get_the_ID() ); ?></li>	
 		<?php } ?>	
 	</div>
+	
+	<!-- 	This outputs the post EXCERPT.  To display full content including images and html, 
+		replace the_excerpt(); with the_content();  below. -->
+		<div>
+		<?php the_excerpt(); ?>
+		</div>
+	<!--<div style="font-size: 18px; font-weight: 400;">-->
+	<div class="featured-entry-readmore">
+		<a href="<?php the_permalink(); ?>">Continue Reading <i class="fa fa-angle-right"></i></a>
+	</div>
+
+	
     </div><!-- /featured text -->
 </div>
 <!-- /featured post -->
-
+</div> <!-- /featured ID style overrides -->
 <!-- // Post Wrap End -->
